@@ -138,4 +138,13 @@ export default {
   margin: 0px !important;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, .15);
 }
+@media only screen and (max-width: 768px) {
+  #searches {
+    flex-direction: column;
+    align-items: center;
+  }
+  #searches input {
+    width: 90%;
+  }
+}
 </style>
